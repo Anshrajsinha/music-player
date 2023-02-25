@@ -109,7 +109,6 @@ img {
     background-color: #ffffff;
     position: absolute;
     width: 60vw;
-    height: 85vh;
     border-radius: 1%;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -165,6 +164,7 @@ li {
     }
     #playlist-container {
         width: 80vw;
+        height: 80vh;
     }
     .playlist-song-details {
         position: absolute;
