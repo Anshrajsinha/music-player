@@ -153,3 +153,32 @@ li {
     color: brown;
     font-size: 80%;
 }
+@media screen and (max-width: 450px) {
+    #playlist-song-artist {
+        color: #2887e3;
+    }
+    .playlist-image-container {
+        display: block;
+    }
+    #close-button {
+        border: none;
+    }
+    #playlist-container {
+        width: 80vw;
+    }
+    .playlist-song-details {
+        position: absolute;
+        left: 20%;
+    }
+    .music-player {
+        width: 80vw;
+    }
+    #playlist {
+        border: 1px solid black;
+        width: 2.5vh;
+        height: 2.5vh;
+        margin-bottom: 1%;
+        font-size: larger;
+        border: none;
+    }
+}
