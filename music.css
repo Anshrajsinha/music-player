@@ -165,6 +165,7 @@ li {
     }
     #playlist-container {
         width: 80vw;
+        height: 80vh;
     }
     .playlist-song-details {
         position: absolute;
@@ -172,7 +173,6 @@ li {
     }
     .music-player {
         width: 80vw;
-        height: 80vh;
     }
     #playlist {
         border: 1px solid black;
