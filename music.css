@@ -109,6 +109,7 @@ img {
     background-color: #ffffff;
     position: absolute;
     width: 60vw;
+    height: 100vh;
     border-radius: 1%;
     transform: translate(-50%, -50%);
     top: 50%;
