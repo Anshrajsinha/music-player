@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music PLayer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="music.css" />
+    <link rel="shortcut icon" href="img/icon_music_player-PhotoRoom.png" type="image/png">
+  </head>
+  <body>
+    <div class="music-player">
+      <button id="playlist">
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
+      </button>
+      <img width="2000" height="160" id="song-image" src="img/download-3.jpg"/>
+      <div class="song-details">
+        <p id="song-name">Falling In Love</p>
+        <p id="song-artist">Elvis Presley</p>
+      </div>
+      <div class="player-options">
+        <button id="shuffle">
+            <i class="fa fa-random" aria-hidden="true"></i>
+        </button>
+        <button id="prev">
+            <i class="fa fa-step-backward" aria-hidden="true"></i>
+        </button>
+        <button id="play">
+            <i class="fa fa-play" aria-hidden="true"></i>
+        </button>
+        <button id="pause" class="hide">
+            <i class="fa fa-pause" aria-hidden="true"></i>
+        </button>
+        <button id="next">
+            <i class="fa fa-step-forward" aria-hidden="true"></i>
+        </button>
+        <button id="repeat" >
+            <i class="fa fa-refresh" aria-hidden="true"></i>
+        </button>
+      </div>
+      <audio id="audio" preload="metadata"></audio>
+      <div id="progress-bar">
+        <div id="current-progress"></div>
+      </div>
+      <div class="time-container">
+        <span id="current-time">0:00</span>
+        <span id="max-duration">0:00</span>
+      </div>
+      <div id="playlist-container" class="hide">
+        <button id="close-button">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </button>
+        <ul id="playlist-songs"></ul>
+      </div>
+    </div>
+
+    <script src="music.js"></script>
+  </body>
+</html>
