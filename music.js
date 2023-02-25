@@ -139,7 +139,7 @@ const nextSong = () => {
 const prevSong = ()=>{
     if (loop) {
         if (index == 0) {
-            index = 3
+            index = songsList.length - 1
         } else {
             index -=1
         }
