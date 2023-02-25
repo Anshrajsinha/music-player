@@ -108,8 +108,8 @@ img {
 #playlist-container {
     background-color: #ffffff;
     position: absolute;
-    width: 60%;
-    height: 70%;
+    width: 60vw;
+    height: 70vh;
     border-radius: 1%;
     transform: translate(-50%, -50%);
     top: 50%;
