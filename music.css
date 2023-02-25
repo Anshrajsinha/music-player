@@ -123,7 +123,7 @@ img {
     height: 5.2%;
     width: 5.2%;
     cursor: pointer;
-    margin-left: 95%;
+    margin-left: 90%;
 }
 ul {
     list-style-type: none;
@@ -172,6 +172,7 @@ li {
     }
     .music-player {
         width: 80vw;
+        height: 80vh;
     }
     #playlist {
         border: 1px solid black;
